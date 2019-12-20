@@ -1,0 +1,3 @@
+alias vim="vim -u $HOME/.config/vim/vimrc"
+alias ll="ls -la"
+alias ..="cd .."

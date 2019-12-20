@@ -1,0 +1,34 @@
+#"amixer -c 1 set Master playback 5%+"
+#	XF86AudioRaiseVolume
+
+
+#"amixer -c 1 set Master playback 5%-"
+#	XF86AudioLowerVolume
+
+
+#"amixer -c 1 set Master toggle"
+#	XF86AudioMute
+
+
+"xbacklight -dec 5"
+	XF86MonBrightnessDown
+
+
+"xbacklight -inc 5"
+	XF86MonBrightnessUp
+
+"kbdlight up"
+	XF86KbdBrightnessUp
+
+"kbdlight down"
+	XF86KbdBrightnessDown
+
+
+
+
+
+
+
+
+
+
