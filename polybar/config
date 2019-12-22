@@ -48,8 +48,8 @@ modules-left = i3
 modules-center = date
 modules-right = temperature cpu memory volume wlan eth battery powermenu
 
-tray-position = right
-tray-padding = 0
+tray-position = 
+tray-padding = 
 ;wm-restack = i3
 override-redirect = false
 
@@ -103,7 +103,7 @@ format-connected = <ramp-signal> <label-connected>
 format-connected-foreground = #1E272B
 format-connected-background = #9d6a47
 format-connected-padding = 2
-label-connected = %local_ip%   
+label-connected =%{A1:nm-connection-editor:}%local_ip%%{A}   
 ;%essid%
 
 format-disconnected =
@@ -184,8 +184,8 @@ battery = BAT0
 adapter = ADP1
 full-at = 98
 
-;format-charging = Charging... <label-charging>
-format-charging = <animation-charging> <label-charging>
+format-charging = Charging... <label-charging>
+;format-charging = <animation-charging> <label-charging>
 format-charging-underline = ${colors.darkyellow}
 
 ;format-discharging = <label-discharging>
